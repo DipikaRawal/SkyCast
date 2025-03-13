@@ -1,109 +1,122 @@
-# SkyCast Website Documentation
-[SkyCast](https://github.com/DipikaRawal/SkyCast)
-## Introduction
+# 🌦️ SkyCast - Weather Forecast Web Application  
 
-SkyCast is a web application that provides real-time weather information. It offers features such as viewing the current weather, a 5-day forecast, wind speed, temperature for the current day, sunrise and sunset times, air quality, humidity, visibility, feels like temperature, and atmospheric pressure.
+## 📌 Introduction  
+SkyCast is a sleek, user-friendly web application that delivers **real-time weather updates** and detailed forecasts for cities worldwide. It provides essential weather insights such as:  
 
-The application is developed using HTML, CSS, and JavaScript, and it utilizes the OpenWeather API to fetch weather data for different cities around the world.
+✅ **Current temperature & conditions**  
+✅ **5-day weather forecast**  
+✅ **Wind speed & hourly temperature updates**  
+✅ **Sunrise & sunset times**  
+✅ **Air quality, humidity, visibility, and atmospheric pressure**  
 
-## Table of Contents
+Built with **HTML, CSS, and JavaScript**, SkyCast fetches accurate weather data from the **OpenWeather API** to keep you informed at all times.  
 
-1. [Project Overview](#project-overview)
-2. [Getting Started](#getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Installation](#installation)
-3. [Project Structure](#project-structure)
-4. [HTML](#html)
-    - [index.html](#index.html)
-5. [CSS](#css)
-    - [style.css](#style.css)
-6. [JavaScript](#javascript)
-    - [api.js](#api.js)
-    - [module.js](#module.js)
-    - [app.js](#app.js)
-    - [route.js](#route.js)
-7. [Functionality](#functionality)
-8. [Screenshots](#screenshots)
-9. [Contributing](#contributing)
-10. [License](#license)
+---
 
-## Project Overview
-
-The Weather Website is a user-friendly and responsive web application that allows users to search for cities and get detailed weather information. The data is presented in a visually appealing format with easy-to-understand icons and labels.
-
-Key Features:
-- View current weather conditions (temperature, weather icon, and description).
-- Get a 5-day weather forecast.
-- Display wind speed and temperature every 2 hours for the current day.
-- Show sunrise and sunset times for the selected city.
-- Provide information about air quality, humidity, visibility, feels like temperature, and atmospheric pressure.
-
-## Getting Started
-
-### Prerequisites
-
-- Modern web browser (Chrome, Firefox, Safari, etc.).
-- Internet connection to fetch weather data from the OpenWeather API.
-
-### Installation
-
-1. Clone the repository or download the project files to your local machine.
-2. Open `index.html` in your web browser.
-
-## Project Structure
-
-The project is organized into multiple files for better code organization and separation of concerns:
-
-- `index.html`: The main HTML file that contains the user interface.
-- `style.css`: The CSS file that defines the styling for the web application.
-- `api.js`: Contains functions to interact with the OpenWeather API.
-- `module.js`: Contains utility functions related to weather data conversion and calculations.
-- `app.js`: Contains the main application logic, including event handling and rendering.
-- `route.js`: Defines the application routes and handles URL hash changes.
-
-## HTML
-
-### index.html
-
-The main HTML file contains the structure of the Weather Website. It consists of different sections, including a search bar, current weather display, forecast section, and additional weather details. The page is designed to be responsive and adapts to different screen sizes.
-
-## CSS
-
-### style.css
-
-The `style.css` file contains all the CSS styles used to create a visually appealing and user-friendly interface. It defines global variables, reset styles, and custom styles for various components like buttons, cards, headers, and footers. The CSS is organized using class selectors for specific components and follows a mobile-first approach with media queries for responsive design.
-
-## JavaScript
-
-### api.js
-
-The `api.js` file contains functions to interact with the OpenWeather API. It includes functions to fetch weather data based on city names and coordinates using asynchronous JavaScript (async/await) and the Fetch API. The API key required for accessing the OpenWeather API is stored as a constant.
-
-### module.js
-
-The `module.js` file defines utility functions related to weather data conversion and calculations. It includes functions to convert temperature units from Kelvin to Celsius and Fahrenheit, convert wind speed units, and calculate air quality index (AQI) level and its corresponding message.
-
-### app.js
-
-The `app.js` file contains the main application logic. It defines functions to update the weather information on the user interface based on the data fetched from the API. This file handles event listeners for user interactions, such as searching for a city, updating the UI for current weather and forecast, and displaying error messages when necessary.
-
-### route.js
-
-The `route.js` file manages the application's routing system. It defines routes for different sections of the website and handles URL hash changes. The routes are associated with specific functions in `app.js` to render the appropriate content based on the user's actions.
-
-## Functionality
-
-- Users can search for a city to view its weather information.
-- The application fetches real-time weather data from the OpenWeather API.
-- The current weather section displays the temperature, weather icon, and description.
-- The 5-day forecast shows the weather conditions for the next five days.
-- The hourly forecast provides wind speed and temperature details for the current day.
-- Sunrise and sunset times are displayed for the selected city.
-- Additional weather details, including air quality, humidity, visibility, feels like temperature, and atmospheric pressure, are shown.
-- The application is responsive and adapts to different screen sizes.
+## 📂 Table of Contents  
+- [Project Overview](#-project-overview)  
+- [Getting Started](#-getting-started)  
+- [Installation](#-installation)  
+- [Project Structure](#-project-structure)  
+- [Functionality](#-functionality)  
+- [Contributing](#-contributing)
 
 
-## Contributing
+---
 
-We welcome contributions to enhance the project! If you find any issues or have ideas for improvements, please don't hesitate to report them through GitHub issues. You can also suggest enhancements or submit pull requests to help make this project even better.
+## 📌 Project Overview  
+SkyCast is designed to simplify weather tracking with an **intuitive interface** and visually appealing icons. It adapts to different screen sizes, making it **accessible on desktops, tablets, and mobile devices**.  
+
+### 🔹 Key Features  
+🔹 **Search for any city** to view real-time weather conditions.  
+🔹 **Get a 5-day forecast** with temperature trends.  
+🔹 **Hourly temperature updates** and **wind speed tracking**.  
+🔹 **See sunrise & sunset times** based on location.  
+🔹 **Additional details:** Air quality, humidity, visibility, and pressure.  
+
+---
+
+## 🚀 Getting Started  
+
+### 🔧 Prerequisites  
+Before running SkyCast, ensure you have:  
+📌 A modern web browser (**Chrome, Firefox, Safari, Edge**).  
+📌 An **internet connection** to fetch live weather data from OpenWeather API.  
+
+---
+
+## 💻 Installation  
+
+Follow these simple steps to set up SkyCast locally:  
+
+1. **Clone the repository:**  
+   ```sh
+   git clone https://github.com/DipikaRawal/SkyCast.git
+   cd SkyCast
+   ```
+2. **Open the project** in your favorite code editor (**VS Code recommended**).  
+3. **Launch the application**: Open `index.html` in a browser.  
+
+---
+
+## 📁 Project Structure  
+
+```
+SkyCast/
+│── index.html        # Main webpage
+│── style.css         # Stylesheet
+│── api.js            # Fetches data from OpenWeather API
+│── module.js         # Utility functions for weather conversions
+│── app.js            # Handles UI interactions & updates
+│── route.js          # Manages URL routing
+│── README.md         # Project documentation
+```
+
+### 🛠️ Detailed Breakdown  
+📌 **index.html** - Contains the main layout and UI elements.  
+📌 **style.css** - Defines the styles, animations, and responsive design.  
+📌 **api.js** - Retrieves weather data using the OpenWeather API.  
+📌 **module.js** - Converts temperature, wind speed, and AQI levels.  
+📌 **app.js** - Handles dynamic updates based on user interactions.  
+📌 **route.js** - Manages page navigation and hash-based routing.  
+
+---
+
+## ⚡ Functionality  
+
+🔍 **Search for any city** to instantly get weather details.  
+🌡️ **View current weather conditions** with icons & descriptions.  
+📅 **Check a 5-day forecast** for upcoming weather trends.  
+💨 **Monitor wind speed & temperature** every 2 hours.  
+🌅 **Get sunrise & sunset times** for your location.  
+🌍 **Access additional weather info** (AQI, humidity, visibility).  
+
+---
+
+
+
+## 🛠️ Contributing 💡  
+
+We welcome contributions! If you have suggestions for improvement or spot any bugs:  
+
+1. **Fork this repository**  
+2. **Create a new branch** (`feature-new-update`)  
+3. **Make changes & commit**  
+4. **Submit a Pull Request** 🎉  
+
+Feel free to **open issues** if you encounter any problems or have feature requests!  
+
+---
+
+## 📜 License  
+This project is licensed under the **MIT License**.  
+
+---
+
+## 🔗 Live Demo  
+👉 *[Add a link if deployed]*  
+
+---
+
+🚀💙 Let’s make SkyCast even better!
 
