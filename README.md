@@ -108,13 +108,10 @@ Feel free to **open issues** if you encounter any problems or have feature reque
 
 ---
 
-## 📜 License  
-This project is licensed under the **MIT License**.  
 
----
 
 ## 🔗 Live Demo  
-👉 *[Add a link if deployed]*  
+👉 *[https://sky-cast-weatherforecast.vercel.app/]*  
 
 ---
 
